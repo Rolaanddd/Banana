@@ -17,7 +17,7 @@ export default function HomePage() {
       <HeroSection id="home" />
       <Organic id="organic" />
       <Aboutus2 id="about" />
-      <AboutVideoSection id="about2" />
+      <AboutVideoSection id="about" />
       <WhatWeDo id="services" />
       <WhyChooseUs id="why" />
       <Contact id="contact" />

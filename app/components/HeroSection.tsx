@@ -6,7 +6,10 @@ interface SectionProps {
 }
 const HeroSection = ({ id }: SectionProps) => {
   return (
-    <section id={id} className="w-full hidden md:block bg-[#f8f8f8]">
+    <section
+      id={id}
+      className="w-full hidden md:block scroll-mt-39 bg-[#f8f8f8]"
+    >
       <div className=" mx-auto">
         <div className="grid grid-cols- lg:grid-cols-6 min-h-[600px]">
           {/* Left Side - Content */}

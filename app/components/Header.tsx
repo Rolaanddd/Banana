@@ -58,99 +58,34 @@ const Header = () => {
           {/* Left Side - Navigation Links */}
           <div className="flex items-center text-xs gap-8">
             <Link
-              href="/"
+              href="#home"
               className="text-gray-900  hover:text-[#699C47] transition flex items-center gap-1"
             >
               Home
-              <svg
-                className="w-4 h-4"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M19 9l-7 7-7-7"
-                />
-              </svg>
             </Link>
             <Link
               href="#about"
               className="text-gray-900 hover:text-[#699C47] transition flex items-center gap-1"
             >
               About us
-              <svg
-                className="w-4 h-4"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M19 9l-7 7-7-7"
-                />
-              </svg>
             </Link>
             <Link
               href="#services"
               className="text-gray-900 hover:text-[#699C47] transition flex items-center gap-1"
             >
               What We Do
-              <svg
-                className="w-4 h-4"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M19 9l-7 7-7-7"
-                />
-              </svg>
             </Link>
             <Link
               href="#why"
               className="text-gray-900 hover:text-[#699C47] transition flex items-center gap-1"
             >
               Why Choose Us?
-              <svg
-                className="w-4 h-4"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M19 9l-7 7-7-7"
-                />
-              </svg>
             </Link>
             <Link
               href="#contact"
               className="text-gray-900 hover:text-[#699C47] transition flex items-center gap-1"
             >
               Contact
-              <svg
-                className="w-4 h-4"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M19 9l-7 7-7-7"
-                />
-              </svg>
             </Link>
           </div>
 
